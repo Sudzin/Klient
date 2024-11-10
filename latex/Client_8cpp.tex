@@ -1,0 +1,65 @@
+\hypertarget{Client_8cpp}{}\doxysection{Файл Client.\+cpp}
+\label{Client_8cpp}\index{Client.cpp@{Client.cpp}}
+
+
+Модуль клиента  
+
+
+{\ttfamily \#include \char`\"{}md5.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Client.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}termcolor.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$sys/stat.\+h$>$}\newline
+Граф включаемых заголовочных файлов для Client.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Client_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{Client_8cpp_a0521afe11ba0fdcf3b3fb99c8fbc58b1}{file\+\_\+exists}} (const string \&name)
+\begin{DoxyCompactList}\small\item\em Функция для проверки существования файла. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Модуль клиента 
+
+Модуль для подключения клиента к серверу, аутентификации и отправки данных. \begin{DoxyVersion}{Версия}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Дата}
+05.\+11.\+2024 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Автор}
+Мочалин А.\+А. 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{Авторство}
+ИБСТ ПГУ 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Функции}
+\mbox{\Hypertarget{Client_8cpp_a0521afe11ba0fdcf3b3fb99c8fbc58b1}\label{Client_8cpp_a0521afe11ba0fdcf3b3fb99c8fbc58b1}} 
+\index{Client.cpp@{Client.cpp}!file\_exists@{file\_exists}}
+\index{file\_exists@{file\_exists}!Client.cpp@{Client.cpp}}
+\doxysubsubsection{\texorpdfstring{file\_exists()}{file\_exists()}}
+{\footnotesize\ttfamily bool file\+\_\+exists (\begin{DoxyParamCaption}\item[{const string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Функция для проверки существования файла. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em name} & Имя файла. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если файл существует, false в противном случае. 
+\end{DoxyReturn}
